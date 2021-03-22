@@ -1,0 +1,57 @@
+.body{
+    background-image:url("./images/bg-desktop.svg")
+}
+.border{
+    border-radius: 30px;
+    color:hsl(300, 69%, 71%);
+    width:30%
+}
+.border:hover{
+    background-color: hsl(300, 69%, 71%);
+    color:white;
+}
+.logo{
+
+    width: 250px;
+    margin-top:40px;
+}
+.family1{
+    font-family: 'Poppins', sans-serif;
+}
+.family2{
+    font-family: 'Open Sans', sans-serif;
+}
+.end{
+    justify-content: flex-end;
+}
+.circle{
+    border-color:white;
+    color:white;
+}
+.circle:hover{
+    border-color:hsl(300, 69%, 71%);
+    color:hsl(300, 69%, 71%);
+}
+
+@media only screen and (max-width:576px){
+    .body{
+        background-image:url("./images/bg-mobile.svg")
+
+    }
+    .logo{
+        width: 200px;
+        margin-left: 15px;
+    }
+}
+@media only screen and (max-width:770px){
+    .center{
+        text-align: center;
+    }
+    .border{
+        width: 60%;
+    }
+    .end{
+        justify-content:center;
+    }
+    .margen {margin-top:60px;}
+}
